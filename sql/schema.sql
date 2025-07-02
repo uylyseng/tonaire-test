@@ -1,0 +1,16 @@
+-- Create Products table
+CREATE TABLE PRODUCTS (
+    PRODUCTID INT PRIMARY KEY IDENTITY(1,1),
+    PRODUCTNAME NVARCHAR(100) NOT NULL,
+    PRICE DECIMAL(10, 2) NOT NULL,
+    STOCK INT NOT NULL
+);
+
+-- Insert sample data
+INSERT INTO PRODUCTS (PRODUCTNAME, PRICE, STOCK)
+VALUES 
+('iPhone 15 Pro', 999.99, 20),
+('Samsung Galaxy S24', 899.99, 30),
+('MacBook Pro M2', 2499.99, 20),
+('Pixel 8 Pro', 999.99, 200),
+('LG V60', 400.00, 10);
