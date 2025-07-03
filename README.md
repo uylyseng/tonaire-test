@@ -3,6 +3,8 @@
 This repository was developed for Tonaire Digital test. It consists of a Node.js/Express backend API and a Flutter mobile application frontend.
 
 ![Project Screenshot](image.png)
+![Project Screenshot](image_1.png)
+![Project Screenshot](image_2.png)
 
 ## Project Structure
 
